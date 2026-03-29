@@ -148,3 +148,102 @@ main {
 	flex-direction: column;
 	gap: 1.5rem;
 }
+
+/* Sections */
+section {
+	background-color: #252525;
+	border-radius: 0.75rem;
+	padding: 1.25rem;
+}
+
+/* Service cards */
+section article {
+	background-color: #2e2e2e;
+	border-radius: 0.75rem;
+	padding: 1rem;
+	margin-top: 0.75rem;
+}
+
+section article img {
+	display: block;
+	width: 48px;
+	height: 48px;
+	margin-bottom: 0.5rem;
+}
+
+/* Lists */
+#why-us ul {
+	padding-left: 1rem;
+}
+
+#why-us li::before {
+	content: "• ";
+	color: var(--yellow);
+}
+
+/* Tables */
+table {
+	width: 100%;
+	margin-top: 0.75rem;
+	background-color: #2e2e2e;
+	border-radius: 0.5rem;
+	overflow: hidden;
+}
+
+th,
+td {
+	padding: 0.5rem 0.75rem;
+	text-align: left;
+}
+
+th {
+	background-color: var(--teal);
+	color: var(--dark-gray);
+	font-weight: 700;
+}
+
+tbody tr:nth-child(odd) {
+	background-color: #303030;
+}
+
+tbody tr:nth-child(even) {
+	background-color: #383838;
+}
+
+/* Button-style link */
+a.button {
+	display: inline-block;
+	background-color: var(--pink);
+	color: var(--white);
+	text-decoration: none;
+	padding: 0.75rem 1.5rem;
+	border-radius: 999px;
+	font-weight: 600;
+	margin-top: 0.5rem;
+}
+
+a.button:hover {
+	background-color: var(--yellow);
+	color: var(--dark-gray);
+}
+
+/* Footer */
+footer {
+	text-align: center;
+	margin-top: 2rem;
+	font-size: 0.9em;
+	color: #cccccc;
+}
+
+footer a {
+	color: var(--lavender);
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: var(--yellow);
+}
+
+
+
+
